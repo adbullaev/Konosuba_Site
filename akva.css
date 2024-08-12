@@ -1,0 +1,58 @@
+body {
+    background-image: url(images/akva.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    align-items: normal;
+    padding: 20px;
+}
+
+.content {
+    background-color: #00b3ff51;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 2.5em;
+    color: #3022f9;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 1.2em;
+    color: #333;
+}
+
+  body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+  }
+
+  main {
+      flex: 1;
+  }
+
+  footer {
+      background-color: #00eeff;
+      text-align: center;
+      padding: 10px;
+      box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  footer p {
+      margin: 0;
+      color: #fff;
+      font-family: 'Roboto', sans-serif;
+  }
